@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.fdl.mapper.goodsMapper">
+    <resultMap id="tb_itemMap" type="com.example.fdl.pojo.tb_item" >
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="title" property="title" jdbcType="VARCHAR" />
+        <result column="sell_point" property="sellPoint" jdbcType="VARCHAR" />
+        <result column="price" property="price" jdbcType="BIGINT" />
+        <result column="num" property="num" jdbcType="INTEGER" />
+        <result column="barcode" property="barcode" jdbcType="VARCHAR" />
+        <result column="image" property="image" jdbcType="VARCHAR" />
+        <result column="cid" property="cid" jdbcType="BIGINT" />
+        <result column="status" property="status" jdbcType="TINYINT" />
+        <result column="created" property="created" jdbcType="TIMESTAMP" />
+        <result column="updated" property="updated" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <select id="findGoodsAll" resultMap="tb_itemMap" parameterType="Integer">
+    select * from taotao.tb_item limit #{start}, #{end}
+  </select>
+
+    <select id="queryGoodsById" resultMap="tb_itemMap" parameterType="Integer">
+        select * from taotao. tb_item where id = #{id};
+    </select>
+</mapper>
