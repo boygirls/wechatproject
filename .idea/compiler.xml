@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wechatstore-web" />
+        <module name="wechatstore-service" />
+        <module name="wechatstore-pojo" />
+        <module name="wechatstore-common" />
+        <module name="wechatstore-mapper" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wechatproject" target="1.8" />
+      <module name="wechatstore-common" target="1.8" />
+      <module name="wechatstore-mapper" target="1.8" />
+      <module name="wechatstore-pojo" target="1.8" />
+      <module name="wechatstore-service" target="1.8" />
+      <module name="wechatstore-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wechatproject" options="-parameters" />
+      <module name="wechatstore-common" options="-parameters" />
+      <module name="wechatstore-mapper" options="-parameters" />
+      <module name="wechatstore-pojo" options="-parameters" />
+      <module name="wechatstore-service" options="-parameters" />
+      <module name="wechatstore-web" options="-parameters" />
+    </option>
+  </component>
+</project>
