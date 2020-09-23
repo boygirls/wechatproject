@@ -85,6 +85,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.8.RELEASE" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.26" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat:tomcat-juli:7.0.105" />
           <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.10.14" />
         </element>
       </element>

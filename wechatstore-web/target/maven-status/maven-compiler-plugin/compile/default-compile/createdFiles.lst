@@ -1,5 +1,7 @@
 com\example\fdl\WechatstoreWebApplication.class
+com\example\fdl\config\DruidConfig.class
+com\example\fdl\start.class
+com\example\fdl\Controller\goodsController.class
 com\example\fdl\config\SwaggerConfig.class
 com\example\fdl\Controller\orderController.class
 com\example\fdl\Controller\userAppController.class
-com\example\fdl\Controller\goodsController.class

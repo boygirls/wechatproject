@@ -23,6 +23,7 @@ public class goodsService {
     public R findGoodsAll(Integer page, Integer rows){
 
         //对要检索行数进行计算，先跑项目，后在计算
+
         List<tb_item> goodsAll = goodsMapper.findGoodsAll(page, rows);
 //        序列化为json
         R<List<tb_item>> tb_itemR = new R<>();

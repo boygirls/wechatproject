@@ -1,52 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="wechatstore-web:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c66ddf2c-c33d-4d0d-b972-d135c08bf697" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/44ca0686-2019-4d18-82f1-bca6cf774831.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/44ca0686-2019-4d18-82f1-bca6cf774831/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-common/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-common/target/classes/com/example/fdl/common/R.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-common/target/test-classes/com/example/fdl/WechatstoreCommonApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-common/wechatstore-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/classes/com/example/fdl/mapper/goodsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/classes/com/example/fdl/mapper/goodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/classes/com/example/fdl/mapper/orderMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/classes/com/example/fdl/mapper/orderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/classes/com/example/fdl/mapper/userAppMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/classes/com/example/fdl/mapper/userAppMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/classes/META-INF/wechatstore-pojo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/classes/com/example/fdl/pojo/Tb_order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/classes/com/example/fdl/pojo/Tb_order_item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/classes/com/example/fdl/pojo/json.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/classes/com/example/fdl/pojo/tb_item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/classes/com/example/fdl/pojo/tb_user.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-service/target/classes/com/example/fdl/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-service/target/classes/com/example/fdl/goodsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-service/target/classes/com/example/fdl/userAppService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/Controller/goodsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/Controller/orderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/Controller/userAppController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/WechatstoreWebApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/config/DruidConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/target/test-classes/com/example/fdl/WechatstoreWebApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechatstore-web/wechatstore-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wechatstore_pojo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wechatstore_pojo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wechatstore_service_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wechatstore_service_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_7_0_105.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-common/src/main/java/com/example/fdl/common/ExceptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/ExpressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/ExpressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbContentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbContentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbOrderShippingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbOrderShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-mapper/src/main/java/com/example/fdl/mapper/TbUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/Express.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/ExpressExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbContentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbOrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbOrderItemExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbOrderShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbOrderShippingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-pojo/src/main/java/com/example/fdl/pojo/TbUserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-service/src/main/java/com/example/fdl/AppUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-web/src/main/java/com/example/fdl/Controller/AppUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechatstore-web/src/main/java/com/example/fdl/start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/wechatstore_web_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/wechatstore_web_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-common/src/test/java/com/example/fdl/WechatstoreCommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-common/target/test-classes/com/example/fdl/WechatstoreCommonApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-mapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-mapper/wechatstore-mapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-mapper/wechatstore-mapper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-pojo/target/classes/META-INF/wechatstore-pojo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-pojo/wechatstore-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-pojo/wechatstore-pojo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-service/src/main/java/com/example/fdl/goodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-service/src/main/java/com/example/fdl/goodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-service/target/classes/com/example/fdl/goodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-service/target/classes/com/example/fdl/goodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-service/wechatstore-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-service/wechatstore-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-web/src/main/java/com/example/fdl/Controller/goodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-web/src/main/java/com/example/fdl/Controller/goodsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/Controller/goodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-web/target/classes/com/example/fdl/Controller/goodsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechatstore-web/wechatstore-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wechatstore-web/wechatstore-web.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +126,12 @@
       </set>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -122,7 +152,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1gcGuO4vflnF0QTKrEvfCvxY3cb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -135,21 +167,28 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wechatstore-common/src/main/java/com/example/fdl/common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Student\wechatproject\wechatstore-mapper\src\main\java\com\example\fdl" />
+      <recent name="D:\Student\wechatproject\wechatstore-mapper\src\main\resources" />
+      <recent name="D:\Student\wechatproject\wechatstore-mapper\src\main\java\com\example\fdl\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.fdl" />
       <recent name="com.example" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Student\wechatproject\wechatstore-mapper\src\main\java\com\example\fdl" />
-      <recent name="D:\Student\wechatproject\wechatstore-mapper\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Student\wechatproject\wechatstore-common\src\main\java\com\example\fdl\common" />
+      <recent name="D:\Student\wechatproject\wechatstore-pojo\src\main\java\com\example\fdl\pojo" />
       <recent name="D:\Student\wechatproject\wechatstore-mapper\src\main\java\com\example\fdl\mapper" />
     </key>
   </component>
@@ -229,6 +268,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -269,18 +313,58 @@
       <workItem from="1599124915599" duration="410000" />
       <workItem from="1599184770232" duration="1242000" />
       <workItem from="1599204910728" duration="1934000" />
-      <workItem from="1599274702720" duration="1993000" />
+      <workItem from="1599274702720" duration="2043000" />
+      <workItem from="1599977359071" duration="220000" />
+      <workItem from="1600394603277" duration="289000" />
+      <workItem from="1600498807767" duration="751000" />
+      <workItem from="1600510000498" duration="1564000" />
+      <workItem from="1600519676702" duration="6553000" />
+      <workItem from="1600563860312" duration="3193000" />
+      <workItem from="1600567082358" duration="4520000" />
+      <workItem from="1600590897356" duration="97000" />
+      <workItem from="1600669432112" duration="7360000" />
+      <workItem from="1600683561631" duration="13259000" />
+      <workItem from="1600735228048" duration="6273000" />
+      <workItem from="1600754627617" duration="3525000" />
+      <workItem from="1600762619257" duration="1337000" />
+      <workItem from="1600771453810" duration="3025000" />
+      <workItem from="1600823043680" duration="1506000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1599276728091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599276728091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="324" y="101" key="#Project_Structure" timestamp="1598974881430">
+    <state x="324" y="101" key="#Project_Structure" timestamp="1600570021482">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state x="324" y="101" key="#Project_Structure/0.0.1463.884@0.0.1463.884" timestamp="1598974881430" />
+    <state x="324" y="101" key="#Project_Structure/0.0.1463.884@0.0.1463.884" timestamp="1600570021482" />
     <state x="324" y="101" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598973828657">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
@@ -289,6 +373,10 @@
       <screen x="0" y="0" width="1463" height="884" />
     </state>
     <state x="855" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1463.884@0.0.1463.884" timestamp="1598535915733" />
+    <state x="462" y="218" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1600690454662">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="462" y="218" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1463.884@0.0.1463.884" timestamp="1600690454662" />
     <state x="481" y="301" width="604" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598688945812">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
@@ -297,6 +385,10 @@
       <screen x="0" y="0" width="1463" height="884" />
     </state>
     <state x="462" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1463.884@0.0.1463.884" timestamp="1599028888599" />
+    <state x="280" y="37" key="CommitChangelistDialog2" timestamp="1599276726213">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="280" y="37" key="CommitChangelistDialog2/0.0.1463.884@0.0.1463.884" timestamp="1599276726213" />
     <state x="589" y="336" width="284" height="290" key="Github.ShareDialog" timestamp="1599276366267">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
@@ -305,38 +397,38 @@
       <screen x="0" y="0" width="1463" height="884" />
     </state>
     <state x="395" y="149" key="Github.UntrackedFilesDialog/0.0.1463.884@0.0.1463.884" timestamp="1599276394342" />
-    <state width="1391" height="249" key="GridCell.Tab.0.bottom" timestamp="1599207142730">
+    <state width="1391" height="176" key="GridCell.Tab.0.bottom" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.0.bottom/0.0.1463.884@0.0.1463.884" timestamp="1599207142730" />
-    <state width="1391" height="249" key="GridCell.Tab.0.center" timestamp="1599207142730">
+    <state width="1391" height="176" key="GridCell.Tab.0.bottom/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
+    <state width="1391" height="176" key="GridCell.Tab.0.center" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.0.center/0.0.1463.884@0.0.1463.884" timestamp="1599207142730" />
-    <state width="1391" height="249" key="GridCell.Tab.0.left" timestamp="1599207142730">
+    <state width="1391" height="176" key="GridCell.Tab.0.center/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
+    <state width="1391" height="176" key="GridCell.Tab.0.left" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.0.left/0.0.1463.884@0.0.1463.884" timestamp="1599207142730" />
-    <state width="1391" height="249" key="GridCell.Tab.0.right" timestamp="1599207142730">
+    <state width="1391" height="176" key="GridCell.Tab.0.left/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
+    <state width="1391" height="176" key="GridCell.Tab.0.right" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.0.right/0.0.1463.884@0.0.1463.884" timestamp="1599207142730" />
-    <state width="1391" height="249" key="GridCell.Tab.1.bottom" timestamp="1599207142731">
+    <state width="1391" height="176" key="GridCell.Tab.0.right/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
+    <state width="1391" height="176" key="GridCell.Tab.1.bottom" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.1.bottom/0.0.1463.884@0.0.1463.884" timestamp="1599207142731" />
-    <state width="1391" height="249" key="GridCell.Tab.1.center" timestamp="1599207142730">
+    <state width="1391" height="176" key="GridCell.Tab.1.bottom/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
+    <state width="1391" height="176" key="GridCell.Tab.1.center" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.1.center/0.0.1463.884@0.0.1463.884" timestamp="1599207142730" />
-    <state width="1391" height="249" key="GridCell.Tab.1.left" timestamp="1599207142730">
+    <state width="1391" height="176" key="GridCell.Tab.1.center/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
+    <state width="1391" height="176" key="GridCell.Tab.1.left" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.1.left/0.0.1463.884@0.0.1463.884" timestamp="1599207142730" />
-    <state width="1391" height="249" key="GridCell.Tab.1.right" timestamp="1599207142730">
+    <state width="1391" height="176" key="GridCell.Tab.1.left/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
+    <state width="1391" height="176" key="GridCell.Tab.1.right" timestamp="1600778903680">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state width="1391" height="249" key="GridCell.Tab.1.right/0.0.1463.884@0.0.1463.884" timestamp="1599207142730" />
+    <state width="1391" height="176" key="GridCell.Tab.1.right/0.0.1463.884@0.0.1463.884" timestamp="1600778903680" />
     <state width="1391" height="195" key="GridCell.Tab.2.bottom" timestamp="1599013842024">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
@@ -357,18 +449,38 @@
       <screen x="0" y="0" width="1463" height="884" />
     </state>
     <state width="210" height="477" key="HiddenNamespacesPopup/0.0.1463.884@0.0.1463.884" timestamp="1598422397847" />
-    <state x="160" y="35" key="SettingsEditor" timestamp="1599275798292">
+    <state x="262" y="98" key="Maven.ArtifactSearchDialog" timestamp="1600510824673">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state x="160" y="35" key="SettingsEditor/0.0.1463.884@0.0.1463.884" timestamp="1599275798292" />
+    <state x="262" y="98" key="Maven.ArtifactSearchDialog/0.0.1463.884@0.0.1463.884" timestamp="1600510824673" />
+    <state x="160" y="35" key="SettingsEditor" timestamp="1600567231504">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="160" y="35" key="SettingsEditor/0.0.1463.884@0.0.1463.884" timestamp="1600567231504" />
+    <state x="324" y="176" key="Vcs.Push.Dialog.v2" timestamp="1599276733141">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="324" y="176" key="Vcs.Push.Dialog.v2/0.0.1463.884@0.0.1463.884" timestamp="1599276733141" />
+    <state x="532" y="220" key="chooseDestDirectoryDialog" timestamp="1600690439923">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="532" y="220" key="chooseDestDirectoryDialog/0.0.1463.884@0.0.1463.884" timestamp="1600690439923" />
+    <state x="527" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600691755694">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="527" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1463.884@0.0.1463.884" timestamp="1600691755694" />
     <state x="203" y="231" key="new project wizard" timestamp="1598406883071">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
     <state x="203" y="231" key="new project wizard/0.0.1463.884@0.0.1463.884" timestamp="1598406883071" />
-    <state x="714" y="205" width="670" height="676" key="search.everywhere.popup" timestamp="1598975918563">
+    <state x="389" y="202" key="run.anything.popup" timestamp="1600671529346">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
-    <state x="714" y="205" width="670" height="676" key="search.everywhere.popup/0.0.1463.884@0.0.1463.884" timestamp="1598975918563" />
+    <state x="389" y="202" key="run.anything.popup/0.0.1463.884@0.0.1463.884" timestamp="1600671529346" />
+    <state x="714" y="205" width="672" height="676" key="search.everywhere.popup" timestamp="1600690401356">
+      <screen x="0" y="0" width="1463" height="884" />
+    </state>
+    <state x="714" y="205" width="672" height="676" key="search.everywhere.popup/0.0.1463.884@0.0.1463.884" timestamp="1600690401356" />
     <state x="361" y="207" key="spring file set editor" timestamp="1598425733011">
       <screen x="0" y="0" width="1463" height="884" />
     </state>
