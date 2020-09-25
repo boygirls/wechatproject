@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.fdl.mapper.ZWH_order_shipping_Mapper">
+
+    <resultMap id="ZWH_order_shipping" type="com.example.fdl.pojo.ZWH_order_shipping">
+        <id property="order_id" column="order_id"></id>
+        <result property="receiver_name" column="receiver_name"></result>
+        <result property="receiver_phone" column="receiver_phone"></result>
+        <result property="receiver_mobile" column="receiver_mobile"></result>
+
+        <result property="receiver_state" column="receiver_state"></result>
+        <result property="receiver_city" column="receiver_city"></result>
+        <result property="receiver_district" column="receiver_district"></result>
+        <result property="receiver_address" column="receiver_address"></result>
+
+        <result property="receiver_zip" column="receiver_zip"></result>
+        <result property="created" column="created"></result>
+        <result property="updated" column="updated"></result>
+
+    </resultMap>
+
+
+    <!--查看快递信息-->
+    <select id="findOrderShipping" resultMap="ZWH_order_shipping" parameterType="String">
+        select * from taotao.tb_order_shipping o
+        where o.order_id = #{orderId}
+    </select>
+
+
+    <!--创建快递-->
+    <insert id="createOrderShipping" parameterType="com.example.fdl.pojo.ZWH_order_shipping">
+        insert into taotao.tb_order_shipping
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="order_id != null">
+                order_id,
+            </if>
+            <if test="receiver_name != null">
+                receiver_name,
+            </if>
+            <if test="receiver_phone != null">
+                receiver_phone,
+            </if>
+            <if test="receiver_mobile != null">
+                receiver_mobile,
+            </if>
+
+            <if test="receiver_state != null">
+                receiver_state,
+            </if>
+            <if test="receiver_city != null">
+                receiver_city,
+            </if>
+            <if test="receiver_district != null">
+                receiver_district,
+            </if>
+
+            <if test="receiver_address != null">
+                receiver_address,
+            </if>
+            <if test="receiver_zip != null">
+                receiver_zip,
+            </if>
+            <if test="created != null">
+                created,
+            </if>
+            <if test="updated != null">
+                updated,
+            </if>
+
+        </trim>
+
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="order_id != null">
+                #{order_id},
+            </if>
+            <if test="receiver_name != null">
+                #{receiver_name},
+            </if>
+            <if test="receiver_phone != null">
+                #{receiver_phone},
+            </if>
+            <if test="receiver_mobile != null">
+                #{receiver_mobile},
+            </if>
+
+            <if test="receiver_state != null">
+                #{receiver_state},
+            </if>
+            <if test="receiver_city != null">
+                #{receiver_city},
+            </if>
+            <if test="receiver_district != null">
+                #{receiver_district},
+            </if>
+
+            <if test="receiver_address != null">
+                #{receiver_address},
+            </if>
+            <if test="receiver_zip != null">
+                #{receiver_zip},
+            </if>
+            <if test="created != null">
+                #{created},
+            </if>
+            <if test="updated != null">
+                #{updated},
+            </if>
+        </trim>
+    </insert>
+
+</mapper>

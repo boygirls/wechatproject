@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.fdl.mapper.ZWH_order_Mapper">
+
+    <resultMap id="ZWM_order" type="com.example.fdl.pojo.ZWH_order">
+        <id property="order_id" column="order_id"></id>
+        <result property="payment" column="payment"></result>
+        <result property="payment_type" column="payment_type"></result>
+        <result property="post_fee" column="post_fee"></result>
+
+        <result property="status" column="status"></result>
+        <result property="create_time" column="create_time"></result>
+        <result property="update_time" column="update_time"></result>
+        <result property="payment_time" column="payment_time"></result>
+
+        <result property="consign_time" column="consign_time"></result>
+        <result property="end_time" column="end_time"></result>
+        <result property="close_time" column="close_time"></result>
+        <result property="shipping_name" column="shipping_name"></result>
+
+        <result property="shipping_code" column="shipping_code"></result>
+        <result property="user_id" column="user_id"></result>
+        <result property="buyer_message" column="buyer_message"></result>
+        <result property="buYer_nick" column="buYer_nick"></result>
+
+        <result property="buyer_rate" column="buyer_rate"></result>
+
+    </resultMap>
+
+    <!--根据订单Id修改订单转态-->
+    <update id="updateStatusByUserId">
+        update taotao.tb_order set  status = #{status}  where taotao.tb_order.order_id = #{orderId}
+    </update>
+
+    <!--使用用户id查找订单-->
+    <select id="orderQueryByUserId" resultMap="ZWM_order" parameterType="Integer">
+        select * from taotao.tb_order o
+        where o.user_id = #{userId}
+    </select>
+
+
+    <!--插入订单-->
+    <insert id="createOrder" parameterType="com.example.fdl.pojo.ZWH_order">
+        insert into taotao.tb_order
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="order_id != null">
+                order_id,
+            </if>
+            <if test="payment != null">
+                payment,
+            </if>
+            <if test="payment_type != null">
+                payment_type,
+            </if>
+            <if test="post_fee != null">
+                post_fee,
+            </if>
+
+            <if test="status != null">
+                status,
+            </if>
+            <if test="create_time != null">
+                create_time,
+            </if>
+            <if test="update_time != null">
+                update_time,
+            </if>
+            <if test="payment_time != null">
+                payment_time,
+            </if>
+
+            <if test="consign_time != null">
+                consign_time,
+            </if>
+            <if test="end_time != null">
+                end_time,
+            </if>
+            <if test="close_time != null">
+                close_time,
+            </if>
+            <if test="shipping_name != null">
+                shipping_name,
+            </if>
+
+
+            <if test="shipping_code != null">
+                shipping_code,
+            </if>
+            <if test="user_id != null">
+                user_id,
+            </if>
+            <if test="buyer_message != null">
+                buyer_message,
+            </if>
+            <if test="buYer_nick != null">
+                buYer_nick,
+            </if>
+
+            <if test="buyer_rate != null">
+                buyer_rate,
+            </if>
+        </trim>
+
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="order_id != null">
+                #{order_id},
+            </if>
+            <if test="payment != null">
+                #{payment},
+            </if>
+            <if test="payment_type != null">
+                #{payment_type},
+            </if>
+            <if test="post_fee != null">
+                #{post_fee},
+            </if>
+
+            <if test="status != null">
+                #{status},
+            </if>
+            <if test="create_time != null">
+                #{create_time},
+            </if>
+            <if test="update_time != null">
+                #{update_time},
+            </if>
+            <if test="payment_time != null">
+                #{payment_time},
+            </if>
+
+            <if test="consign_time != null">
+                #{consign_time},
+            </if>
+            <if test="end_time != null">
+                #{end_time},
+            </if>
+            <if test="close_time != null">
+                #{close_time},
+            </if>
+            <if test="shipping_name != null">
+                #{shipping_name},
+            </if>
+
+            <if test="shipping_code != null">
+                #{shipping_code},
+            </if>
+            <if test="user_id != null">
+                #{user_id},
+            </if>
+            <if test="buyer_message != null">
+                #{buyer_message},
+            </if>
+            <if test="buYer_nick != null">
+                #{buYer_nick},
+            </if>
+
+            <if test="buyer_rate != null">
+                #{buyer_rate},
+            </if>
+        </trim>
+    </insert>
+
+</mapper>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.fdl.mapper.ZWH_order_item_Mapper">
+    <resultMap id="ZWH_order_item" type="com.example.fdl.pojo.ZWH_order_item">
+        <id property="id" column="id"></id>
+        <result property="item_id" column="item_id"></result>
+        <result property="order_id" column="order_id"></result>
+        <result property="num" column="num"></result>
+
+        <result property="title" column="title"></result>
+        <result property="price" column="price"></result>
+        <result property="total_fee" column="total_fee"></result>
+        <result property="pic_path" column="pic_path"></result>
+
+        <result property="status" column="status"></result>
+    </resultMap>
+
+
+
+    <!--根据订单Id修改订单详情转态-->
+    <update id="StatusByOrderId">
+        update taotao.tb_order_item set  status = #{status}  where taotao.tb_order_item.order_id = #{orderId}
+    </update>
+
+    <!--根据订单Id查找订单详情-->
+    <select id="orderItemQueryByOrderId" resultMap="ZWH_order_item" parameterType="String">
+        select * from taotao.tb_order_item o
+        where o.order_id = #{orderId}
+    </select>
+
+    <insert id="createOrderItem" parameterType="com.example.fdl.pojo.ZWH_order_item">
+        insert into taotao.tb_order_item
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="item_id != null">
+                item_id,
+            </if>
+            <if test="order_id != null">
+                order_id,
+            </if>
+            <if test="num != null">
+                num,
+            </if>
+
+            <if test="title != null">
+                title,
+            </if>
+            <if test="price != null">
+                price,
+            </if>
+            <if test="total_fee != null">
+                total_fee,
+            </if>
+            <if test="pic_path != null">
+                pic_path,
+            </if>
+
+
+            <if test="status != null">
+                status,
+            </if>
+        </trim>
+
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id},
+            </if>
+            <if test="item_id != null">
+                #{item_id},
+            </if>
+            <if test="order_id != null">
+                #{order_id},
+            </if>
+            <if test="num != null">
+                #{num},
+            </if>
+
+            <if test="title != null">
+                #{title},
+            </if>
+            <if test="price != null">
+                #{price},
+            </if>
+            <if test="total_fee != null">
+                #{total_fee},
+            </if>
+            <if test="pic_path != null">
+                #{pic_path},
+            </if>
+
+            <if test="status != null">
+                #{status},
+            </if>
+        </trim>
+    </insert>
+
+</mapper>
