@@ -25,7 +25,7 @@ public class userAppController {
     })
     @PostMapping("/login")
     @ResponseBody
-    public R findLoginUser(@RequestParam(value="ausername") String username, @RequestParam(value="name") String name){
+    public R findLoginUser(@RequestParam(value="username") String username, @RequestParam(value="name") String name){
         System.out.println("请求到findLoginUser了");
         R r = userappService.findLoginUser(username, name);
         return r;

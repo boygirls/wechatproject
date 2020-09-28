@@ -6,6 +6,9 @@ import com.example.fdl.ZWH_orderService;
 import com.example.fdl.common.R;
 import com.example.fdl.pojo.json;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -21,6 +24,8 @@ public class ZWH_orderController {
     ZWH_orderService zwh_orderService;
 
     //生成订单
+    @ApiOperation(value = "生成订单")
+    @ApiImplicitParam(name = "订单信息",value = "orderJson",dataType = "String",paramType = "body")
     @ResponseBody
     @PostMapping("/ZWH_saveOrder")
     public R saveOrder(@RequestBody String orderJson){
@@ -45,22 +50,28 @@ public class ZWH_orderController {
     }
 
     //查找订单
+    @ApiOperation(value = "查找订单")
+    @ApiImplicitParam(name = "userId",value = "用户Id",dataType = "Integer",paramType = "query")
     @ResponseBody
     @PostMapping("/ZWH_queryOrder")
-    public R queryOrder(@RequestBody Integer userId){
+    public R queryOrder(@RequestParam Integer userId){
         R r = zwh_orderService.queryOrder(userId);
         return r;
     }
 
     //查找订单详情
+    @ApiOperation(value = "查找订单详情")
+    @ApiImplicitParam(name = "orderId",value = "订单Id",dataType = "String",paramType = "query")
     @ResponseBody
     @PostMapping("/ZWH_queryOrderItem")
-    public R queryOrderItem(@RequestBody String orderId){
+    public R queryOrderItem(@RequestParam String orderId){
         R r = zwh_orderService.queryOrderItem(orderId);
         return r;
     }
 
     //修改订单状态
+    @ApiOperation(value = "修改订单状态")
+    @ApiImplicitParam(name = "订单信息",value = "orderJson",dataType = "String",paramType = "body")
     @ResponseBody
     @PostMapping("/ZWH_changeStatus")
     public R changeStatus(@RequestBody String orderJson){
@@ -74,6 +85,8 @@ public class ZWH_orderController {
 
 
     //根据订单Id查快递
+    @ApiOperation(value = "根据订单Id查快递")
+    @ApiImplicitParam(name = "orderId",value = "订单Id",dataType = "String")
     @ResponseBody
     @PostMapping("/ZWH_findOrderShipping")
     public R findOrderShipping(String orderId){

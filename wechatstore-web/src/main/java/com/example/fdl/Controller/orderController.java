@@ -24,7 +24,7 @@ public class orderController {
     OrderService orderService;
 
     @ApiOperation(value = "保存订单信息")
-    @ApiImplicitParam(name = "订单信息",dataType = "String",paramType = "body")
+    @ApiImplicitParam(name = "orderJson",value = "订单信息",dataType = "String",paramType = "body")
     @ResponseBody
     @PostMapping("/saveOrder")
     public R saveOrder(@RequestBody String orderJson){
@@ -63,6 +63,10 @@ public class orderController {
 
 
     @ApiOperation(value = "更新订单信息")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "orderId",value = "订单id",dataType = "Integer",paramType = "query"),
+            @ApiImplicitParam(name = "type",value = "订单状态",dataType = "Integer",paramType = "query")
+    })
     @PostMapping("/updateOrderStatus")
     @ResponseBody
     public R updateOrderStatus(@RequestParam(value = "orderId")Integer orderId,@RequestParam(value = "type")Integer type){
